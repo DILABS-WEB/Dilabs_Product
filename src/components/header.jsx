@@ -41,7 +41,7 @@ const header = () => {
     <div className="container-xxl">
       <div className="row">
      <div className="col-2">
-      <Link to='/'><img src={logo} alt="" srcset="" className='img-fluid ' /></Link>
+      <Link to='/'><img src={logo} alt="" srcset="" className='img-thumbnail ' /></Link>
       
      </div>
      <div className="col-5">
