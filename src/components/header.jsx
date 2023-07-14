@@ -4,16 +4,16 @@ import {AiOutlineMail}  from 'react-icons/ai'
 
 const header = () => {
   return <>
-  <header className='header-top-strip p-2 bg-primary'>
+  <header className='header-top-strip p-2 '>
 <div className="container-xxl animated-right-left">
   <div className="row">
-    <div className="col-6 text-white animated-right-left"  >
+    <div className="col-6 text-white "  >
       <p>Shipping available with Additional charges of $10.</p>
       
     </div>
     <div className="col-6 d-flex justify-content-between " >
     <div >
-    <a  className="text-white " href="tel:+91 8046601700/796"> Call us: +918046601700/796  </a>
+    <a  className="text-white " href="tel:+91 8046601700/796">Call us: +918046601700/796   </a>
     </div>
     <div >
     
