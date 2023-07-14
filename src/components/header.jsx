@@ -1,12 +1,17 @@
 import React from 'react'
 import {BiPhoneCall} from  'react-icons/bi';
-import {AiOutlineMail}  from 'react-icons/ai'
+import {AiOutlineMail}  from 'react-icons/ai';
+
+
+
+
+
 
 const header = () => {
   return <>
-  <header className='header-top-strip p-2 '>
+  <header className='header-top-strip p-1 '>
 <div className="container-xxl animated-right-left">
-  <div className="row">
+  <div className="row align-items-center">
     <div className="col-6 text-white "  >
       <p>Shipping available with Additional charges of $10.</p>
       
@@ -29,6 +34,13 @@ const header = () => {
   
   </div>
 </div>
+  </header>
+  <header className='header-upper'>
+    <div className="container-xxl">
+      <div className="row">
+         
+      </div>
+    </div>
   </header>
   </>;
 }
