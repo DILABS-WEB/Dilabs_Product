@@ -1,6 +1,8 @@
 import React from 'react'
 import {BiPhoneCall} from  'react-icons/bi';
 import {AiOutlineMail}  from 'react-icons/ai';
+import {Link} from 'react-router-dom'
+import logo from "../assets/image/logo.png"
 
 
 
@@ -38,7 +40,10 @@ const header = () => {
   <header className='header-upper'>
     <div className="container-xxl">
       <div className="row">
-     
+     <div className="col-2">
+      <Link to='/'><img src={logo} alt="" srcset="" className='img-fluid logo' /></Link>
+      
+     </div>
       </div>
     </div>
   </header>
