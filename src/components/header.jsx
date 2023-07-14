@@ -38,7 +38,7 @@ const header = () => {
   <header className='header-upper'>
     <div className="container-xxl">
       <div className="row">
-         
+     
       </div>
     </div>
   </header>
