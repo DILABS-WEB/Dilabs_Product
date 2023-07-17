@@ -116,3 +116,20 @@ animation-timing-function:linear;
 
 }
 /*   Header End Here  */
+
+
+
+/*   Footer Start Here  */
+
+.footer{
+  background:#222D35;
+}
+.footer-details{
+  color: var(--lighter);
+}
+.footer-details a{
+color:var(--lighter);
+
+}
+
+/*   Footer End Here  */
