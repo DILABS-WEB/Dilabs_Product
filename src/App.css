@@ -19,18 +19,9 @@
 
 
 .logo {
-  height: 6em;
-  pad: 1.5rem;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
+  max-width: 100%;
 
+}
 a{
   text-decoration: none;
   font-size: 14px;
@@ -43,6 +34,14 @@ p{
   font-weight: bolder;
  
 }
+button{
+  padding: 12px 10px;
+  font-size: 14px;
+  background-color: var(--primary1);
+  color: white;
+
+}
+
 
 /*   Header Start Here  */
 /* @-webkit-keyframes anim {
@@ -99,6 +98,21 @@ animation-timing-function:linear;
 
 
 .header-top-strip{
-  background: var(--primary3);
+  background: var(--primary1);
+}
+.input-group button{
+  background: transparent;
+  font-size: 14px;
+  color:var(--search)
+
+}
+.nav-links a{
+  font-size: 14px;
+  text-transform: uppercase;
+  color: var(--primary1)
+}
+.nav-links-nav a{
+  color: var(--search);
+
 }
 /*   Header End Here  */
