@@ -11,7 +11,7 @@ const footer = () => {
     <div className="container-xxl">
       <div className="row">
         <div className="col-4 d-flex flex-column ">
-          <h2 className='mb-5 text-light'>Contact Us</h2> 
+          <h3 className='mb-4 text-light'>Contact Us</h3> 
           <div className="footer-details">    
           <p className='mb-3  fw-b'><b><TfiLocationPin className='fs-2 m-1'/></b><b >Address:</b><b>M/ s DILABS SYSTEMS PVT. LTD.#5AC-418, 1st Floor, 5A Cross, 2nd Stage, Kalyan Nagar, HRBR Layout, Banaswadi, Bangalore-560043, Karnataka, India.</b></p>
           
@@ -28,14 +28,30 @@ const footer = () => {
           </div>
           </div>
           <div className='col-2'>
-            <h3 className='mb-5'> About</h3>
-            <div className="footer-details">
+            <h3 className='mb-4'> About</h3>
+            <div className="footer-details d-flex flex-column ">
               <Link to='https://dilabs.in/about-us/ target="_blank"' className='mb-3'>About Us</Link>
+              <Link to='https://dilabs.in/about-us/ target="_blank"' className='mb-3'>Delivery</Link>
+              <Link to='https://dilabs.in/about-us/ target="_blank"' className='mb-3'>Privacy policy</Link>
+              <Link to='https://dilabs.in/about-us/ target="_blank"' className='mb-3'>Tax Policy</Link>
+              <Link to='https://dilabs.in/about-us/ target="_blank"' className='mb-3'>Fee Policy</Link>
+              <Link to='https://dilabs.in/about-us/ target="_blank"' className='mb-3'>Terms & Conditions</Link>
+            </div>
+          </div>
+          <div className='col-2'>
+            <h3 className='mb-4'> Account</h3>
+            <div className="footer-details d-flex flex-column ">
+              <Link to='https://dilabs.in/about-us/ target="_blank"' className='mb-3'>Profile</Link>
+              <Link to='https://dilabs.in/about-us/ target="_blank"' className='mb-3'>View Cart</Link>
+              <Link to='https://dilabs.in/about-us/ target="_blank"' className='mb-3'>My Orders</Link>
+              <Link to='https://dilabs.in/about-us/ target="_blank"' className='mb-3'>My Wishlist</Link>
+              <Link to='https://dilabs.in/about-us/ target="_blank"' className='mb-3'>Help</Link>
+              <Link to='https://dilabs.in/about-us/ target="_blank"' className='mb-3'>Coupons</Link>
             </div>
           </div>
         </div>
         <hr />
-        <div className="row d-flex">
+        <div className="row d-flex justify-content-between">
           <div className="col-9">
             <Link  to="https://abhishekkumar-portfolio.github.io/Portfolio/" target="_blank"><p>&copy;Developed by Abhishek Kumar @ 2023</p></Link>
           </div>

@@ -115,6 +115,9 @@ animation-timing-function:linear;
   color: var(--search);
 
 }
+.social-icons a{
+  color: var(--search);
+}
 /*   Header End Here  */
 
 
