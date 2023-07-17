@@ -63,13 +63,13 @@ const header = () => {
 <Link to={'contact'} >CONTACT</Link>
 </div>
 <div className="nav-links-nav col-3 d-flex align-items-center justify-content-between">
-<Link className='d-flex'> <HiOutlineInboxIn className='fs-3 mx-2'/> 
+<Link to={'/wishlist'} className='d-flex'> <HiOutlineInboxIn className='fs-3 mx-2'/> 
 <p>Wishlist</p>
 </Link>
-<Link className='d-flex'> <VscAccount className='fs-3 mx-2'/> 
+<Link to={'/login'} className='d-flex'> <VscAccount className='fs-3 mx-2'/> 
 <p>Account</p>
 </Link>
-<Link className='d-flex'> <CgShoppingCart className='fs-3 mx-2'/> 
+<Link to={'cart'} className='d-flex'> <CgShoppingCart className='fs-3 mx-2'/> 
 <p>Cart</p>
 </Link>
 
