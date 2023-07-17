@@ -13,12 +13,12 @@ const footer = () => {
         <div className="col-4 d-flex flex-column ">
           <h3 className='mb-4 '>Contact Us</h3> 
           <div className="footer-details">    
-          <p className='mb-3  fw-b'><b><TfiLocationPin className='fs-2 m-1'/></b><b >Address:</b><b>M/ s DILABS SYSTEMS PVT. LTD.#5AC-418, 1st Floor, 5A Cross, 2nd Stage, Kalyan Nagar, HRBR Layout, Banaswadi, Bangalore-560043, Karnataka, India.</b></p>
+          <p className='mb-3  fw-b'><b><TfiLocationPin className='fs-2 m-1'/></b><b >Address:</b><b><a href="https://goo.gl/maps/D5Y4w4mVNQPZGTtU8" target="_blank"> #5AC-418, 1st Floor, 5A Cross, 2nd Stage, KalyanNagar, HRBR Layout, Banaswadi, Bangalore-560043, Karnataka, India.</a></b></p>
           
           <p className='mb-3  fw-b'><b><FiPhoneCall className='fs-2 m-1'/></b><b >Phone:</b><b><a  href="tel:+91 8046601700/796" target="_blank">+91 8046601700/796 </a></b></p>
           
           <p className='mb-3  fw-b'><b><AiOutlineMail className='fs-2 m-1'/></b><b >Email:</b><b><a className='text-decoration-none' href="mailto:info@dilabs.in" target="_blank">info@dilabs.in</a></b></p>
-          <p className='mb-3  fw-b'><b><AiOutlineFieldTime className='fs-2 m-1'/></b><b >Hours Open:</b><b>From 9:00 A.m to 6:00 P.m</b></p>
+          <p className='mb-3  fw-b'><b><AiOutlineFieldTime className='fs-2 m-1'/></b><b >Hours Open:</b><b><Link>From 9:00 A.m to 6:00 P.m</Link></b></p>
           
           <p className='mb-3  fw-b'><b><RiChatFollowUpFill className='fs-2 m-1'/></b><b >Follow us:</b> </p>
           <div className="col-4 d-flex social-icon mb-3 justify-content-around">
