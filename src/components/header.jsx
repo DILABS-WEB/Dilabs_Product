@@ -17,19 +17,19 @@ const header = () => {
   <header className='header-top-strip p-1 px-4 shadow-mc'>
 <div className="container-xxl animated-right-left">
   <div className="row align-items-center">
-    <div className="col-6 text-white "  >
+    <div className="col-6 text-dark "  >
       <p>Shipping available with Additional charges of $10.</p>
       
     </div>
     <div className="col-6 d-flex justify-content-between " >
     <div >
-    <a  className="text-white " href="tel:+91 8046601700/796">Call us: +918046601700/796   </a>
+    <a  className=" " href="tel:+91 8046601700/796"><p>Call us: +918046601700/796 </p>  </a>
     </div>
-    <div >
+    <div  >
     
-    <a className="text-white animated-x" href="tel:+91 8046601700"><BiPhoneCall className='fs-4 mx-4 text-white'/></a>
+    <a className=" animated-x" href="tel:+91 8046601700"><BiPhoneCall className='fs-4 mx-4 '/></a>
     
-    <a className="text-white " href="mailto:abhishek@dilabs.in"><AiOutlineMail className='fs-4 mx-4 text-white'/></a>
+    <a className=" " href="mailto:abhishek@dilabs.in"><AiOutlineMail className='fs-4 mx-4 '/></a>
     
     
     
@@ -57,10 +57,10 @@ const header = () => {
 </div>
 </div>
 <div className="nav-links col-4 d-flex align-items-center justify-content-between text-center m-auto">
-<Link to={'/'} >HOME</Link>
-<Link to={'shop'} >SHOP</Link>
-<Link to={'about'} >ABOUT</Link>
-<Link to={'contact'} >CONTACT</Link>
+<Link to={'/'} >Home</Link>
+<Link to={'shop'} >Shop</Link>
+<Link to={'about'} >About</Link>
+<Link to={'contact'} >Contact</Link>
 </div>
 <div className="nav-links-nav col-3 d-flex align-items-center justify-content-between">
 <Link to={'/wishlist'} className='d-flex'> <HiOutlineInboxIn className='fs-3 mx-2'/> 

@@ -11,7 +11,7 @@ const footer = () => {
     <div className="container-xxl">
       <div className="row">
         <div className="col-4 d-flex flex-column ">
-          <h3 className='mb-4 text-light'>Contact Us</h3> 
+          <h3 className='mb-4 '>Contact Us</h3> 
           <div className="footer-details">    
           <p className='mb-3  fw-b'><b><TfiLocationPin className='fs-2 m-1'/></b><b >Address:</b><b>M/ s DILABS SYSTEMS PVT. LTD.#5AC-418, 1st Floor, 5A Cross, 2nd Stage, Kalyan Nagar, HRBR Layout, Banaswadi, Bangalore-560043, Karnataka, India.</b></p>
           
@@ -22,8 +22,8 @@ const footer = () => {
           
           <p className='mb-3  fw-b'><b><RiChatFollowUpFill className='fs-2 m-1'/></b><b >Follow us:</b> </p>
           <div className="col-4 d-flex social-icon mb-3 justify-content-around">
-<Link className='fs-2 m-1 text-light' to="http://www.linkedin.com/company/dilabs-system-private-limited/" target="_blank" rel="noopener noreferrer"><AiFillLinkedin/></Link>
-<Link className='fs-2 m-1 text-light' to="https://www.facebook.com/Datasol-Innovative-Labs-139313079957084/" target="_blank" rel="noopener noreferrer"><AiFillFacebook/></Link>
+<Link className='fs-2 m-1 ' to="http://www.linkedin.com/company/dilabs-system-private-limited/" target="_blank" rel="noopener noreferrer"><AiFillLinkedin/></Link>
+<Link className='fs-2 m-1 ' to="https://www.facebook.com/Datasol-Innovative-Labs-139313079957084/" target="_blank" rel="noopener noreferrer"><AiFillFacebook/></Link>
           </div>
           </div>
           </div>
