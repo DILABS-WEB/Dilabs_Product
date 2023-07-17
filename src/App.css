@@ -121,8 +121,9 @@ animation-timing-function:linear;
 
 /*   Footer Start Here  */
 
-.footer{
-  background:#222D35;
+footer{
+  background-color:#222D35;
+  color: var(--lighter);
 }
 .footer-details{
   color: var(--lighter);
@@ -130,6 +131,15 @@ animation-timing-function:linear;
 .footer-details a{
 color:var(--lighter);
 
+}
+footer hr{
+  color: #cbd6cf;
+  border-width: 3px;
+}
+footer a{
+  color:var(--lighter);
+  text-decoration: none;
+  
 }
 
 /*   Footer End Here  */
