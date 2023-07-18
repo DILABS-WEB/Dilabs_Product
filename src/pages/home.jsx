@@ -26,6 +26,7 @@ const home = () => {
       <h1>Our Featured Product</h1>
       <p>Inertial Navigation System </p>
     </div>
+   
     <FeaturedProducts/>
   </div>
 

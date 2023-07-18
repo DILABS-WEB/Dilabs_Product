@@ -22,7 +22,7 @@ export const PRODUCTS = [
         partnumber:'DILABS000000',
         price:20,
         status:'in stock',
-        title:'INS-B-OEM Basic',
+        name:'INS-B-OEM Basic',
         },
         {
             id:1,
@@ -30,7 +30,7 @@ export const PRODUCTS = [
             partnumber:'DILABS000001',
             price:30,
             status:'in stock',
-            title:'INS-P Professional',
+            name:'INS-P Professional',
         },
     {
         id:2,
@@ -38,7 +38,7 @@ export const PRODUCTS = [
         partnumber:'DILABS000002',
         price:20,
         status:'in stock',
-        title:'INS-D',
+        name:'INS-D',
         },
         {
             id:3,
@@ -46,7 +46,7 @@ export const PRODUCTS = [
             partnumber:'DILABS000003',
             price:30,
             status:'in stock',
-            title:'INS-DL',
+            name:'INS-DL',
         },
     {
         id:4,
@@ -54,7 +54,7 @@ export const PRODUCTS = [
         partnumber:'DILABS000004',
         price:20,
         status:'in stock',
-        title:'IMU - P',
+        name:'IMU - P',
         },
         {
             id:5,
@@ -62,7 +62,7 @@ export const PRODUCTS = [
             partnumber:'DILABS000005',
             price:30,
             status:'in stock',
-            title:'OS3D-DTS',
+            name:'OS3D-DTS',
         },
     {
         id:6,
@@ -70,7 +70,7 @@ export const PRODUCTS = [
         partnumber:'DILABS000006',
         price:20,
         status:'in stock',
-        title:'AHRS-10B',
+        name:'AHRS-10B',
         },
         {
             id:7,
@@ -78,7 +78,7 @@ export const PRODUCTS = [
             partnumber:'DILABS000007',
             price:30,
             status:'in stock',
-            title:'AHRS-10P',
+            name:'AHRS-10P',
         },
     {
         id:8,
@@ -86,7 +86,7 @@ export const PRODUCTS = [
         partnumber:'DILABS000008',
         price:20,
         status:'in stock',
-        title:'MRU-B Basic',
+        name:'MRU-B Basic',
         },
         {
             id:9,
@@ -94,7 +94,7 @@ export const PRODUCTS = [
             partnumber:'DILABS000009',
             price:30,
             status:'in stock',
-            title:'MRU-E Enhanced',
+            name:'MRU-E Enhanced',
         },
     {
         id:10,
@@ -102,7 +102,7 @@ export const PRODUCTS = [
         partnumber:'DILABS000010',
         price:20,
         status:'in stock',
-        title:'MRU-P Professional',
+        name:'MRU-P Professional',
         },
         {
             id:11,
@@ -110,7 +110,7 @@ export const PRODUCTS = [
             partnumber:'DILABS000011',
             price:30,
             status:'in stock',
-            title:'OptoAHRS-II',
+            name:'OptoAHRS-II',
         },
     {
         id:12,
@@ -118,7 +118,7 @@ export const PRODUCTS = [
         partnumber:'DILABS000012',
         price:20,
         status:'in stock',
-        title:'INS-D-OEM,INS-DL-OEM',
+        name:'INS-D-OEM,INS-DL-OEM',
         },
         {
             id:13,
@@ -126,7 +126,7 @@ export const PRODUCTS = [
             partnumber:'DILABS000013',
             price:30,
             status:'in stock',
-            title:'Wave Sensor WS-E Enhanced',
+            name:'Wave Sensor WS-E Enhanced',
         },
     {
         id:14,
@@ -134,7 +134,7 @@ export const PRODUCTS = [
         partnumber:'DILABS000014',
         price:20,
         status:'in stock',
-        title:'Wave Sensor WS-PD Professional Dual',
+        name:'Wave Sensor WS-PD Professional Dual',
         },
       
     
