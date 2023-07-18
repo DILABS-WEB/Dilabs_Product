@@ -1,9 +1,12 @@
 import React from 'react'
+import { PRODUCTS } from './products';
+
 
 const featuredProducts = () => {
-  return (
-    <div>featuredProducts</div>
-  )
+  return <>
+  hi
+  
+  </>;
 }
 
 export default featuredProducts
