@@ -1,9 +1,10 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import Hero from '../components/hero' 
 
 const home = () => {
   return <>
-  <div className="section">
+  <section className="banner">
     <div className="container-xxl">
       <div className="row">
         <div className="banner-details p-5 d-flex flex-column align-items-start justify-content-between ">
@@ -14,9 +15,20 @@ const home = () => {
         </div>
       </div>
     </div>
+  </section>
+  <Hero/>
+
+  <section className="featured-products p-5">
+<div className="container-xxl">
+  <div className="row">
+    <div className="text-center">
+      <h1>Our Featured Product</h1>
+    </div>
   </div>
-  
-  </>
+
+</div>
+  </section>
+  </>;
 }
 
 export default home
