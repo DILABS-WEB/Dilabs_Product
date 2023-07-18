@@ -32,6 +32,15 @@ const home = () => {
 
 </div>
   </section>
+  <section className='repair'>
+    <div className="container-xxl">
+      <div className="row">
+        <div className="repair-details">
+          
+        </div>
+      </div>
+    </div>
+  </section>
   </>;
 }
 
