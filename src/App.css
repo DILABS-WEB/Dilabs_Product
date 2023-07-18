@@ -54,7 +54,7 @@
     font-size: 14px;
     font-weight: 400;
     margin: 0;
-    color: var(--primary1);
+    
   }
 
 button{
@@ -64,8 +64,14 @@ button{
   color: white;
 
 }
-
-
+.active{
+  font-weight: 600;
+  color: var(--primary);
+}
+.inactive{
+  color: var(--primary1);
+  font-weight: 400;
+}
 /*   Header Start Here  */
 /* @-webkit-keyframes anim {
   from {
@@ -135,12 +141,10 @@ animation-timing-function:linear;
 .nav-links a{
   font-size: 14px;
   text-transform: uppercase;
-  color: var(--primary1)
+  text-decoration: none;
+  
 }
-.nav-links-nav a{
-  color: var(--search);
 
-}
 .social-icons a{
   color: var(--search);
 }
