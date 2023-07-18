@@ -23,6 +23,7 @@ const home = () => {
   <div className="row">
     <div className="text-center">
       <h1>Our Featured Product</h1>
+      <p>Inertial Navigation System </p>
     </div>
   </div>
 
