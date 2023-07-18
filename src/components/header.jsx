@@ -5,7 +5,7 @@ import {HiOutlineInboxIn}  from 'react-icons/hi';
 import {VscAccount}  from 'react-icons/vsc';
 import {CgShoppingCart}  from 'react-icons/cg';
 import {Link} from 'react-router-dom'
-import logo from "../assets/image/logo.jpg"
+import logo from "../assets/image/Dilabs.png"
 
 
 
