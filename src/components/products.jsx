@@ -126,7 +126,7 @@ export const PRODUCTS = [
             partnumber:'DILABS000013',
             price:30,
             status:'in stock',
-            name:'Wave Sensor WS-E Enhanced',
+            name:'Wave Sensor ',
         },
     {
         id:14,
@@ -134,7 +134,7 @@ export const PRODUCTS = [
         partnumber:'DILABS000014',
         price:20,
         status:'in stock',
-        name:'Wave Sensor WS-PD Professional Dual',
+        name:'Wave Sensor WS-PD ',
         },
       
     
