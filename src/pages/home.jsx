@@ -1,18 +1,22 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const home = () => {
-  <>
-    <section className="banner p-5">
-      <div className="containter-xxl">
-        <div className="row">
-          <banner className="details">
-            
-          </banner>
+  return <>
+  <div className="section">
+    <div className="container-xxl">
+      <div className="row">
+        <div className="banner-details p-5 d-flex flex-column align-items-start justify-content-between ">
+          <span className='shadow-lg p-3 text-white'>Get the Avionics Product!!</span>
+          <h1>Super Deal With Dilabs</h1>
+          <h2 className='text-primary'>On all Products</h2>
+          <Link to={'shop'} className='button-link mb-3'>Order Now</Link>
         </div>
       </div>
-    </section>
+    </div>
+  </div>
   
-  </>;
+  </>
 }
 
 export default home
