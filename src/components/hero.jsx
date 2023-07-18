@@ -1,6 +1,6 @@
 import React from 'react'
 import orders from '../assets/image/icons/fast-delivery.png'
-import orders1 from '../assets/image/icons/cargo.png'
+import orders1 from '../assets/image/icons/purchasing.png'
 import orders2 from '../assets/image/icons/salary.png'
 import orders3 from '../assets/image/icons/cargo.png'
 import orders4 from '../assets/image/icons/online-store.png'
@@ -26,7 +26,7 @@ const hero = () => {
             <div className="card text-center m-auto">
               <img src={orders1} className="card-img-top img-fluid m-auto" alt="Quick Shipping" />
               <div className="card-body">
-                <p className="card-text mb-0">Quick Shipping</p>
+                <p className="card-text mb-0">Quick Shopping</p>
               </div>
             </div>
           </div>
