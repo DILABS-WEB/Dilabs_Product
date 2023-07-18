@@ -51,7 +51,7 @@ const home = () => {
   <div className="row">
     <div className="text-center">
       <h1>Our New Product</h1>
-      <p>Avionics & Military Solutions </p>
+      <p>Avionics & Military Display Solutions </p>
     </div>
    
     <NewArrival/>

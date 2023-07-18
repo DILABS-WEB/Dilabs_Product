@@ -13,6 +13,10 @@ import img12 from '../assets/image/Products/Inertial Navigation System/optoahrs.
 import img13 from '../assets/image/Products/Inertial Navigation System/p1.png'
 import img14 from '../assets/image/Products/Inertial Navigation System/ws-e.png'
 import img15 from '../assets/image/Products/Inertial Navigation System/ws-pd.png'
+import img16 from '../assets/image/Products/Inertial Navigation System/p2.png'
+import img17 from '../assets/image/Products/Inertial Navigation System/p3.png'
+import img18 from '../assets/image/Products/Inertial Navigation System/p4.png'
+import img19 from '../assets/image/Products/Inertial Navigation System/p5.png'
 
 // eslint-disable-next-line react-refresh/only-export-components
 export const PRODUCTS = [
@@ -137,6 +141,43 @@ export const PRODUCTS = [
         name:'Wave Sensor WS-PD ',
         },
       
+    {
+        id:15,
+        Image:img16,
+        partnumber:'DILABS000015',
+        price:20,
+        status:'in stock',
+        name:'WOMTM  ',
+        },
+      
+    {
+        id:16,
+        Image:img17,
+        partnumber:'DILABS000016',
+        price:20,
+        status:'in stock',
+        name:'OptoWOMTM-IITM ',
+        },
+      
+    {
+        id:17,
+        Image:img18,
+        partnumber:'DILABS000017',
+        price:20,
+        status:'in stock',
+        name:'OS3D-FG ',
+        },
+      
+    {
+        id:18,
+        Image:img19,
+        partnumber:'DILABS000018',
+        price:20,
+        status:'in stock',
+        name:'OS3DM – Subminiature ',
+        },
+      
+    
     
     
        
