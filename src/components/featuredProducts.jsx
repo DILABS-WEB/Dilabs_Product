@@ -5,7 +5,7 @@ import { PRODUCTS } from './products';
 const featuredProducts = () => {
   return <>
 <div className="row mt-4">
-{PRODUCTS.slice(0,19).map(product =>(
+{PRODUCTS.slice(0,8).map(product =>(
     <div className="col-3 mb-3">
         <div key={product.id}>
    <div className="card h-100 m-auto p-3 ">

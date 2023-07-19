@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 import Hero from '../components/hero' 
 import FeaturedProducts from '../components/featuredProducts'
 import NewArrival from '../components/newArrival'
+import Blogs from '../components/blogs'
 
 const home = () => {
   return <>
@@ -59,6 +60,17 @@ const home = () => {
 
 </div>
   </section>
+<section className="blogs-p5">
+  <div className="container-xxl">
+    <div className="row">
+    <div className="text-center mb-3">
+      <h1>What Our Customer Say </h1>
+      <p>We Support You In Thin Air </p>
+    </div>
+      <Blogs/>
+    </div>
+  </div>
+</section>
   </>;
 }
 

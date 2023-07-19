@@ -4,7 +4,7 @@ import { PRODUCTS1 } from './products';
 const newArrival = () => {
   return <>
   <div className="row mt-4">
-{PRODUCTS1.map(product =>(
+{PRODUCTS1.slice(0,8).map(product =>(
     <div className="col-3 mb-3">
         <div key={product.id}>
    <div className="card h-100 m-auto p-3 ">

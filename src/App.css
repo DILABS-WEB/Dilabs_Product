@@ -260,4 +260,19 @@ transition: 0.5s ease;
 .new-products .card span{
   color: var(--darken);
 }
+.button-blog{
+  padding: 10px 8px;
+font-size:18px;
+border-radius: 10px;
+color:var(--primary1);
+ border: 1px solid transparent;
+background: transparent;
+transition: 0.5s ease;
+}
+
+.button-blog:hover{
+  background: transparent;
+  color:var(--search);
+  border: 1px solid var(--darken);
+}
 /* Home End Here */
