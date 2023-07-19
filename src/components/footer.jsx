@@ -10,6 +10,19 @@ const footer = () => {
   <footer className="footer p-5">
     <div className="container-xxl">
       <div className="row">
+        <div className="col-12 d-flex">
+          <div className="col-8 text-center mb-3">
+            <h3> Signup For a newsletter </h3>
+            <p>To get On All the New Update  </p>
+          </div>
+<div className="col-4">
+<div className="input-group mb-3 text-center">
+  <input type="email" className="form-control p-2" placeholder="Enter Email here" aria-label="Recipient's email" aria-describedby="basic-addon2"/>
+    <button className="input-group-button" id="basic-addon2">Subscribe</button>
+</div>
+</div>
+
+        </div>
         <div className="col-4 d-flex flex-column ">
           <h3 className='mb-4 '>Contact Us</h3> 
           <div className="footer-details">    
@@ -61,7 +74,8 @@ const footer = () => {
 <Link to="https://abhishekkumar-portfolio.github.io/Portfolio/" target="_blank">Contact Me</Link>
           </div>
         </div>
-      </div>
+        </div>
+    
     </footer>
  
   

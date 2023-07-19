@@ -15,7 +15,7 @@ import logo from "../assets/image/Dilabs.png"
 const header = () => {
   const location =useLocation();
   return <>
-  <header className='header-top-strip p-1 px-4 shadow-mc'>
+  <header className='header-top-strip p-1 px-4 shadow-md'>
 <div className="container-xxl animated-right-left">
   <div className="row align-items-center">
     <div className="col-6 text-dark "  >
@@ -41,7 +41,7 @@ const header = () => {
   </div>
 </div>
   </header>
-  <header className='header-upper'>
+  <header className='header-upper px-3 sticky-top '>
     <div className="container-xxl">
       <div className="row">
      <div className="col-2 m-auto text-center">
@@ -65,17 +65,17 @@ const header = () => {
 </div>
 <div className="nav-links-nav col-3 d-flex align-items-center justify-content-between">
 
-<Link to={'wishlist'} className={location.pathname === '/wishlist' ? 'active' : 'inactive'}> <div className="d-flex"> <span><HiOutlineInboxIn className='fs-3 mx-2'/> 
+<Link to={'wishlist'} className={location.pathname === '/wishlist' ?  'inactive':'active' }> <div className="d-flex"> <span><HiOutlineInboxIn className='fs-3 mx-2'/> 
 </span>
 <p>Wishlist</p>
 </div>
 </Link>
 
-<Link to={'login'} className={location.pathname === '/login' ? 'active' : 'inactive'}>  <div className='d-flex'> <span><VscAccount className='fs-3 mx-2'/> </span> 
+<Link to={'login'} className={location.pathname === '/login' ?  'inactive':'active'}>  <div className='d-flex'> <span><VscAccount className='fs-3 mx-2'/> </span> 
 <p>Account</p>
 </div>
 </Link>
-<Link to={'cart'} className={location.pathname === '/cart' ? 'active' : 'inactive'}>  <div className='d-flex'> <span><CgShoppingCart className='fs-3 mx-2'/> </span> 
+<Link to={'cart'} className={location.pathname === '/cart' ?  'inactive':'active'}>  <div className='d-flex'> <span><CgShoppingCart className='fs-3 mx-2'/> </span> 
 <p>Cart</p>
 </div>
 </Link>

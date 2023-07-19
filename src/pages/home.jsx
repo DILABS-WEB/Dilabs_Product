@@ -60,10 +60,10 @@ const home = () => {
 
 </div>
   </section>
-<section className="blogs-p5">
+<section className="blogs p-3 mb-2">
   <div className="container-xxl">
     <div className="row">
-    <div className="text-center mb-3">
+    <div className="text-center mb-4">
       <h1>What Our Customer Say </h1>
       <p>We Support You In Thin Air </p>
     </div>

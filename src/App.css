@@ -150,6 +150,7 @@ animation-timing-function:linear;
 .header-top-strip{
   background: var(--lighter1);
 }
+
 .input-group button{
   background: transparent;
   font-size: 14px;
@@ -157,7 +158,7 @@ animation-timing-function:linear;
 
 }
 .header-upper{
-  background-color: var(--lighter);
+  background-color: var(--lighter2);
 }
 .nav-links a{
   font-size: 14px;
