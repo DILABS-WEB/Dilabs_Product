@@ -17,6 +17,16 @@ import img16 from '../assets/image/Products/Inertial Navigation System/p2.png'
 import img17 from '../assets/image/Products/Inertial Navigation System/p3.png'
 import img18 from '../assets/image/Products/Inertial Navigation System/p4.png'
 import img19 from '../assets/image/Products/Inertial Navigation System/p5.png'
+import pr1 from '../assets/image/Products/Avionics Military Display Solutions/product-1.png'
+import pr2 from '../assets/image/Products/Avionics Military Display Solutions/product-2.png'
+import pr3 from '../assets/image/Products/Avionics Military Display Solutions/product-3.png'
+import pr4 from '../assets/image/Products/Avionics Military Display Solutions/product-4.png'
+import pr5 from '../assets/image/Products/Avionics Military Display Solutions/product-5.png'
+import pr6 from '../assets/image/Products/Avionics Military Display Solutions/product-6.png'
+import pr7 from '../assets/image/Products/Avionics Military Display Solutions/product-7.png'
+import pr8 from '../assets/image/Products/Avionics Military Display Solutions/product-8.png'
+import pr9 from '../assets/image/Products/Avionics Military Display Solutions/product-9.png'
+
 
 // eslint-disable-next-line react-refresh/only-export-components
 export const PRODUCTS = [
@@ -181,4 +191,79 @@ export const PRODUCTS = [
     
     
        
+];
+export const PRODUCTS1=[
+
+    {
+        id:19,
+        Image:pr1,
+        partnumber:'DILABS000019',
+        price:20,
+        status:'in stock',
+        name:'Integrated Standby Instrument System (ISIS)'
+    },
+    {
+        id:20,
+        Image:pr2,
+        partnumber:'DILABS000020',
+        price:20,
+        status:'in stock',
+        name:'The Smart Multi-Function Display (S M FD-54) '
+    },
+    {
+        id:21,
+        Image:pr3,
+        partnumber:'DILABS000021',
+        price:20,
+        status:'in stock',
+        name:'The RADIO MAGNETIC INDICATOR [RMI)'
+    },
+    {
+        id:22,
+        Image:pr4,
+        partnumber:'DILABS000022',
+        price:20,
+        status:'in stock',
+        name:'RADIO ALTIMETER DISPLAY UNIT (RAMDU)'
+    },
+    {
+        id:23,
+        Image:pr5,
+        partnumber:'DILABS000023',
+        price:20,
+        status:'in stock',
+        name:'The NVIS-COMPATIBLE FRONT PANEL (NCFP)'
+    },
+    {
+        id:24,
+        Image:pr6,
+        partnumber:'DILABS000024',
+        price:20,
+        status:'in stock',
+        name:'IFF (Identification of Friend or Foe)'
+    },
+    {
+        id:25,
+        Image:pr7,
+        partnumber:'DILABS000025',
+        price:20,
+        status:'in stock',
+        name:'The Versa Module Europa (VME)'
+    },
+    {
+        id:26,
+        Image:pr8,
+        partnumber:'DILABS000026',
+        price:20,
+        status:'in stock',
+        name:'Control Display Unit (CDU)'
+    },
+    {
+        id:27,
+        Image:pr9,
+        partnumber:'DILABS000027',
+        price:20,
+        status:'in stock',
+        name:'Central Warning Panel (CWP)'
+    },
 ];
