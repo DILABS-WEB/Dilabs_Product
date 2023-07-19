@@ -1,4 +1,5 @@
 import React from 'react'
+import Shopitems from '../components/shopitems'
 
 const shop = () => {
   return <>
@@ -16,6 +17,14 @@ const shop = () => {
         </div>
       </div>
     </div>
+  </section>
+  <section className='shop-products p-5'>
+  <div className="container-xxl">
+    <div className="row">
+    <Shopitems/>
+    </div>
+  </div>
+
   </section>
   
   </>;

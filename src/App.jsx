@@ -8,14 +8,13 @@ import About from './pages/about'
 import Contact from './pages/contact'
 import Cart from './pages/cart'
 import Wishlist from './pages/wishlist'
-import Login from "./pages/login";
-
-import {Shopcontext} from './components/shopcontext'
+import Login from "./pages/login"
+import ShopContext from './components/shopcontext'
 
 function App() {
  
   return <>
-  <Shopcontext>
+  <ShopContext>
   <BrowserRouter>
   <Routes>
   <Route path='/' element={ <Layout/>}>
@@ -31,7 +30,7 @@ function App() {
 </Routes>
  
   </BrowserRouter>
-  </Shopcontext>
+  </ShopContext>
   
   </>
   
