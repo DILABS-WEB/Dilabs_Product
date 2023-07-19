@@ -24,13 +24,13 @@ const header = () => {
     </div>
     <div className="col-6 d-flex justify-content-between " >
     <div >
-    <a  className=" " href="tel:+91 8046601700/796">Call us: +91-80-46601700/796  </a>
+    <a  className="r" href="tel:+91 8046601700/796">Call us: +91-80-46601700/796  </a>
     </div>
     <div  >
     
-    <a className=" animated-x" href="tel:+91 8046601700"><BiPhoneCall className='fs-4 mx-4 '/></a>
+    <a className="r animated-x" href="tel:+91 8046601700"><BiPhoneCall className='fs-4 mx-4 '/></a>
     
-    <a className=" " href="mailto:abhishek@dilabs.in"><AiOutlineMail className='fs-4 mx-4 '/></a>
+    <a className="r " href="mailto:abhishek@dilabs.in"><AiOutlineMail className='fs-4 mx-4 '/></a>
     
     
     

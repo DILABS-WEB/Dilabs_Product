@@ -150,7 +150,9 @@ animation-timing-function:linear;
 .header-top-strip{
   background: var(--lighter1);
 }
-
+.r{
+  color: var(--primary1);
+}
 .input-group button{
   background: transparent;
   font-size: 14px;
