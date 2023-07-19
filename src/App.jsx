@@ -8,7 +8,7 @@ import About from './pages/about'
 import Contact from './pages/contact'
 import Cart from './pages/cart'
 import Wishlist from './pages/wishlist'
-import Login from "./pages/login"
+import Login from "./pages/login";
 import ShopContext from './components/shopcontext'
 
 function App() {

@@ -303,4 +303,17 @@ transition: 0.5s ease;
   border: none;
   padding: 12px 10px;
 }
+
+
+.shop-products .card img{
+  border-radius: 20px;
+}
+.shop-products .card {
+  border-radius: 20px;
+  max-width: 250px;
+  
+}
+.shop-products .card span{
+  color: var(--darken);
+}
 /* Shop End Here */

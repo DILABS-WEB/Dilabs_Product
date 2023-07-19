@@ -9,9 +9,11 @@ const prod = (props) => {
     const {viewProductDetails,addToCart,cartItems}=useContext(ShopContext);
     const cartitemCount=cartItems[id];
   return <>
-  <div key={id} className="col-3">
-    <div className="card mb-4">
+  <div key={id} className="col-3 mb-4">
+    <div className="card ">
+        <div className="p-2">
         <img src={Image} alt="..."  className='img-fluid card-img-top'/>
+        </div>
        <div className="card-details p-4">
         <span>{partnumber}</span>
 <h5 className='my-3'>{name}</h5>
@@ -23,15 +25,15 @@ const prod = (props) => {
     activeColor="#cca27e"
     />
     
-    <p className='price mb-3'>{price}</p>
+    <p className='price mb-3 text-success'>{price}</p>
    
 <div className='d-flex align-items-center justify-content-around mb-2'>
-<div className="col-6">
-<Link className='view-button' onClick={()=>(viewProductDetails(id))}>View Details</Link>
+<div className="col-6 d-flex align-items-center justify-content-around ">
+<Link className='view-button' onClick={() => viewProductDetails(id)}>View Details</Link>
 </div>
 
-<div className="col-6">
-<button className='add-button' onClick={()=>(addToCart(id))}>Add To Cart{cartitemCount>0 && `(${cartitemCount})` }</button>
+<div className="col-6 d-flex align-items-center justify-content-around ">
+<button className='add-button' onClick={() => addToCart(id)}>Add To Cart{cartitemCount > 0 && `(${cartitemCount})` }</button>
 </div>
        
 </div>
