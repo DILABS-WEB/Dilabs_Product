@@ -1,6 +1,6 @@
 import img1 from '../assets/image/Products/Inertial Navigation System/INS-B.jpg'
 import img2 from '../assets/image/Products/Inertial Navigation System/INS-P.jpg'
-import img3 from '../assets/image/Products/Inertial Navigation System/insdd.png'
+import img3 from '../assets/image/Products/Inertial Navigation System/insdd.jpg'
 import img4 from '../assets/image/Products/Inertial Navigation System/INS-DL.jpg'
 import img5 from '../assets/image/Products/Inertial Navigation System/IMU-P white logo.jpg'
 import img6 from '../assets/image/Products/Inertial Navigation System/DTS.png'
