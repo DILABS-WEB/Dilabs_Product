@@ -10,11 +10,14 @@ import Cart from './pages/cart'
 import Wishlist from './pages/wishlist'
 import Login from "./pages/login";
 
+import {Shopcontext} from './components/shopcontext'
+
 function App() {
  
   return <>
+  <Shopcontext>
   <BrowserRouter>
-<Routes>
+  <Routes>
   <Route path='/' element={ <Layout/>}>
     <Route index element={<Home/>}/>
     <Route path='shop' element={<Shop/>}/>
@@ -27,7 +30,9 @@ function App() {
 
 </Routes>
  
-  </BrowserRouter> 
+  </BrowserRouter>
+  </Shopcontext>
+  
   </>
   
 }
