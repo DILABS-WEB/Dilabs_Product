@@ -4,19 +4,21 @@ import img3 from '../assets/image/Products/Inertial Navigation System/insdd.jpg'
 import img4 from '../assets/image/Products/Inertial Navigation System/INS-DL.jpg'
 import img5 from '../assets/image/Products/Inertial Navigation System/IMU-P white logo.jpg'
 import img6 from '../assets/image/Products/Inertial Navigation System/DTS.png'
-import img7 from '../assets/image/Products/Inertial Navigation System/ahrs1.png'
+import img7 from '../assets/image/Products/Inertial Navigation System/INS-DU.jpg'
 import img8 from '../assets/image/Products/Inertial Navigation System/AHRS.png'
-import img9 from '../assets/image/Products/Inertial Navigation System/mru_b2.png'
-import img10 from '../assets/image/Products/Inertial Navigation System/mru_e.png'
+import img9 from '../assets/image/Products/Inertial Navigation System/MRU-P.jpg'
+import img10 from '../assets/image/Products/Inertial Navigation System/INS-DM.jpg'
 import img11 from '../assets/image/Products/Inertial Navigation System/MRU-PD.jpg'
 import img12 from '../assets/image/Products/Inertial Navigation System/OptoAHRS-II.jpg'
-import img13 from '../assets/image/Products/Inertial Navigation System/p1.png'
+import img13 from '../assets/image/Products/Inertial Navigation System/AHRS-10P.jpg'
 import img14 from '../assets/image/Products/Inertial Navigation System/WS-E.jpg'
 import img15 from '../assets/image/Products/Inertial Navigation System/WS-PD.jpg'
-import img16 from '../assets/image/Products/Inertial Navigation System/p2.png'
-import img17 from '../assets/image/Products/Inertial Navigation System/p3.png'
-import img18 from '../assets/image/Products/Inertial Navigation System/p4.png'
-import img19 from '../assets/image/Products/Inertial Navigation System/p5.png'
+import img16 from '../assets/image/Products/Inertial Navigation System/AHRS-II-P.jpg'
+import img17 from '../assets/image/Products/Inertial Navigation System/IMU-FI-200C, blue.jpg'
+import img18 from '../assets/image/Products/Inertial Navigation System/INS U.jpg'
+import img19 from '../assets/image/Products/Inertial Navigation System/INS-D.jpg'
+import img20 from '../assets/image/Products/Inertial Navigation System/Mini AHRS.jpg'
+import img21 from '../assets/image/Products/Inertial Navigation System/RMCU_2.jpg'
 import pr1 from '../assets/image/Products/Avionics Military Display Solutions/product-1.png'
 import pr2 from '../assets/image/Products/Avionics Military Display Solutions/product-2.png'
 import pr3 from '../assets/image/Products/Avionics Military Display Solutions/product-3.png'
@@ -84,7 +86,7 @@ export const PRODUCTS = [
         partnumber:'DILABS000006',
         price:20,
         status:'in stock',
-        name:'AHRS-10B',
+        name:'INS-DU',
         },
         {
             id:7,
@@ -100,7 +102,7 @@ export const PRODUCTS = [
         partnumber:'DILABS000008',
         price:20,
         status:'in stock',
-        name:'MRU-B Basic',
+        name:'MRU-P',
         },
         {
             id:9,
@@ -108,7 +110,7 @@ export const PRODUCTS = [
             partnumber:'DILABS000009',
             price:30,
             status:'in stock',
-            name:'MRU-E Enhanced',
+            name:'INS-DM',
         },
     {
         id:10,
@@ -132,7 +134,7 @@ export const PRODUCTS = [
         partnumber:'DILABS000012',
         price:20,
         status:'in stock',
-        name:'INS-D-OEM,INS-DL-OEM',
+        name:'AHRS-10P',
         },
         {
             id:13,
@@ -148,7 +150,7 @@ export const PRODUCTS = [
         partnumber:'DILABS000014',
         price:20,
         status:'in stock',
-        name:'Wave Sensor WS-PD ',
+        name:'AHRS-II-P ',
         },
       
     {
@@ -166,7 +168,7 @@ export const PRODUCTS = [
         partnumber:'DILABS000016',
         price:20,
         status:'in stock',
-        name:'OptoWOMTM-IITM ',
+        name:'IMU-FI-200C ',
         },
       
     {
@@ -175,7 +177,7 @@ export const PRODUCTS = [
         partnumber:'DILABS000017',
         price:20,
         status:'in stock',
-        name:'OS3D-FG ',
+        name:'INS U ',
         },
       
     {
@@ -184,7 +186,24 @@ export const PRODUCTS = [
         partnumber:'DILABS000018',
         price:20,
         status:'in stock',
-        name:'OS3DM – Subminiature ',
+        name:'INS-D',
+        },
+      
+    {
+        id:28,
+        Image:img20,
+        partnumber:'DILABS000028',
+        price:20,
+        status:'in stock',
+        name:'MINI-AHRS',
+        },
+    {
+        id:29,
+        Image:img21,
+        partnumber:'DILABS000029',
+        price:20,
+        status:'in stock',
+        name:'RMCU',
         },
       
     
