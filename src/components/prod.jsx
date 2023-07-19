@@ -16,7 +16,7 @@ const prod = (props) => {
         </div>
        <div className="card-details p-4">
         <span>{partnumber}</span>
-<h5 className='my-3'>{name}</h5>
+<h5 className='my-2'>{name}</h5>
  <ReactStars
     count={5}
     size={24}
@@ -25,7 +25,7 @@ const prod = (props) => {
     activeColor="#cca27e"
     />
     
-    <p className='price mb-3 text-success'>{price}</p>
+    <p className='price my-2 text-success'>{price}</p>
    
 <div className='d-flex align-items-center justify-content-around mb-2'>
 <div className="col-6 d-flex align-items-center justify-content-around ">
