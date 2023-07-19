@@ -41,7 +41,7 @@ const home = () => {
         <span className='text-white mt-4'>PRODUCT SOLUTIONS</span>
        <h2 className='text-warning mt-3'>We Provide All Kind of Of Military & Avionics Applications</h2>
         <div className="mt-3">
-          <button className='button-repair'>Explore Now</button>
+          <Link to={'shop'} className='button-repair'>Explore Now</Link>
         </div>
         </div>
       </div>
