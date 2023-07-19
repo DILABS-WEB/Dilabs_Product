@@ -248,4 +248,16 @@ transition: 0.5s ease;
   color:white;
   border: 1px solid var(--primary);
 }
+
+.new-products .card img{
+  border-radius: 20px;
+}
+.new-products .card {
+  border-radius: 20px;
+  max-width: 250px;
+  
+}
+.new-products .card span{
+  color: var(--darken);
+}
 /* Home End Here */
