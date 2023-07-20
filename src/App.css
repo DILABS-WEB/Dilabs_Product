@@ -318,4 +318,13 @@ transition: 0.5s ease;
 .shop-products .card span{
   color: var(--darken);
 }
+
+.pagination a{
+  padding: 10px;
+  font-size: 16px;
+  color: #FF6000;
+}
+.red{
+  color: var(--primary);
+}
 /* Shop End Here */
