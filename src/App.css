@@ -328,3 +328,13 @@ transition: 0.5s ease;
   color: var(--primary);
 }
 /* Shop End Here */
+/*Carts Start Here */
+
+input{
+  padding: 12px;
+}
+.cart-item img{
+  max-width: 100%;
+  height: 100px;
+}
+/* Carts End Here */
