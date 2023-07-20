@@ -3,8 +3,9 @@ import { PRODUCTS, PRODUCTS1 } from '../components/products';
 import CartItems from '../components/cartitems';
 import ShopContext from '../components/shopcontext';
 
+
 const cart = () => {
-    const {viewProductDetails,addToCart,cartItems} = useContext(ShopContext)
+    const [cartItems] = useContext(ShopContext);
   return <>
     <div className="row">
     {[...PRODUCTS, ...PRODUCTS1].map((product)=>{
@@ -13,7 +14,7 @@ if (cartItems[product.id] !== 0){
 }
 })}
   </div>
-  </>;
+  </>
  
 }
 
