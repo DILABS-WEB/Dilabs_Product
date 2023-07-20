@@ -33,7 +33,8 @@ const prod = (props) => {
 </div>
 
 <div className="col-6 d-flex align-items-center justify-content-around ">
-<button className='add-button' onClick={() => {addToCart(id); event.target.classlist.toggle("text-success");} } >Add To Cart{cartitemCount > 0 && `(${cartitemCount})` }</button>
+<button className='add-button' onClick={() => {addToCart(id);
+                    event.target.classList.toggle("red");} } >Add To Cart{cartitemCount > 0 && `(${cartitemCount})` }</button>
 </div>
        
 </div>

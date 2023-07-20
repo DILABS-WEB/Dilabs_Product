@@ -9,18 +9,16 @@ import CartItem from '../components/cartitems'
 
 
 
-const cart = (props) => {
-    const { cartItems, getTotalCartAmount, clearCart } = useContext(ShopContext);
-
-
+const cart = () => {
+    const { viewProductDetails,addToCart,cartItems } = useContext(ShopContext);
 
   
   return <>
   <section className="cart">
 
-    <div className="row">
+    <div className="p-3">
     {[...PRODUCTS, ...PRODUCTS1].map((product) => {
-        if (cartItems[product.id] !== 0) {
+        if (cartItems[product.id] != 0) {
             return <CartItem key={product.id} data={product} />;
         }
         })}

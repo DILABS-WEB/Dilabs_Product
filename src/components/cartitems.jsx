@@ -1,12 +1,15 @@
-import React,{useContext} from 'react'
-import ShopContext from '../components/shopcontext';
+import React from 'react'
+import { useContext } from 'react';
+import Shopcontext from './shopcontext';
+
+
 const cartitems = (props) => {
     const{id,name,Image,partnumber,price} = props.data;
-    const {viewProductDetails,addToCart,cartItems}=useContext(ShopContext);
+   
   return <>
   <section className="cart-item p-5">
 <div className="container-xxl">
-    <div key={id} className="row">
+    <div  className="row">
         <table>
             <thead>
                 <th>Product Image</th>
@@ -17,7 +20,7 @@ const cartitems = (props) => {
             <tbody>
                 <tr>
                    <td>
-                    <img src={Image} alt="" className='img-fluid' />
+                    <img src={Image} alt="..."   className='img-fluid' />
                     </td> 
                     <td>
                         <p>{partnumber}</p>
