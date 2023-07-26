@@ -11,8 +11,8 @@ import CartItem from '../components/cartitems'
 
 const cart = (props) => {
   
-    const { viewProductDetails,addToCart,cartItems } = useContext(ShopContext);
-
+    const { getTotalCartAmount,addToCart,cartItems } = useContext(ShopContext);
+    const TotalAmount = getTotalCartAmount;
   
   return <>
    <section className='cart-item p-5'>
@@ -43,7 +43,18 @@ const cart = (props) => {
   </div>
 
   </div>
-
+  <hr className='my-5'/>
+    <div className="mt-4 p-3 cart-total d-flex justify-content-between">
+     <div className="col-6">
+     <button>
+          Continue Shopping
+        </button>
+     </div>
+      
+        <h3>Total</h3>
+      <p className="">${getTotalCartAmount}</p>
+      <p className="">₹{82.03*getTotalCartAmount}</p>
+    </div>
 </section>
   </>;
 }
