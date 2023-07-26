@@ -332,6 +332,10 @@ transition: 0.5s ease;
 
 input{
   padding: 12px;
+  width: 50px;
+  color: #FF6000;
+  font-size: 16px;
+  font-weight: 600;
 }
 .cart-item img{
   max-width: 100%;
@@ -342,10 +346,21 @@ thead{
 font-size: 16px;
 }
 .cart-item{
-  background: var(--lighter2);
+  background: var(--lighter3);
 }
 tbody{
   background: white;
   padding: 20px;
+}
+.cart-item button{
+  background:transparent;
+  padding: 10px;
+  border: 1px solid;
+  color: black;
+  font-size: 14px;
+
+}
+.input-group button{
+  border: 1px solid var(--lighter);
 }
 /* Carts End Here */

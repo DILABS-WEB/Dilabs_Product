@@ -59,24 +59,25 @@ const cartitem = (props) => {
                 </td>
                 <td>
                  
-                  <p>Part-Number:{partnumber}</p>
-                  <p>Name:{name}</p>
-                  <p>Price:${price}</p>
-                  <p>Price in INR:{82.03*price}</p>
+                  <p>Product Number: <span className="text-success">{ partnumber}</span> </p>
+                  <p>Product Name: <h5 className='text-success'>{name}</h5></p>
+                  <p>Product Price: <span className="text-success">${price}</span></p>
+                  <p>Product Price in INR: <span className="text-success">₹{82.03*price}</span> </p>
+                  <p>Items In Stock: <span className="text-danger">{itemsInStock}</span> </p>
 
                
 
                 </td>
                 <td className='mb-3'>
-                <button className="add-btn" onClick={() => addToCart(id)}>+</button>
-                <input className='text-danger ' value={cartItems[id]} onChange={(e) => updateCartItemCount(Number(e.target.value), id)} />
-                <button className="add-btn" onClick={() => removeToCart(id)}>-</button>
+                <button className="add-button mx-2" onClick={() => addToCart(id)}>+</button>
+                <input  value={cartItems[id]} onChange={(e) => updateCartItemCount(Number(e.target.value), id)} />
+                <button className="add-button mx-2" onClick={() => removeToCart(id)}>-</button>
                 </td>
                 <td>
                   
                   <div className="input-group mb-3">
                     <input type="text" className="form-control" placeholder="Enter Coupon Code" aria-label="Recipient's username" aria-describedby="basic-addon2"/>
-                    <span className="input-group-text" id="basic-addon2">Search</span>
+                    <button className="input-group-text" id="basic-addon2">Search</button>
                   </div>
                
                 </td>
