@@ -11,7 +11,7 @@ const cartitem = (props) => {
   return <>
 
 
-<div className="container card my-3">
+{/* <div className="container card my-3">
       <div className="row g-3">
         <div className="col-12 col-md-5">
           <div className="p-3">
@@ -44,7 +44,49 @@ const cartitem = (props) => {
           </div>
         </div>
       </div>
-    </div>
+    </div> */}
+   
+   <tbody key={id}>
+          
+              <tr>
+                <td>
+                  <div className="p-2">
+                  <img src={Image} alt=""className='img-fluid ' />
+                
+                  </div>
+                 
+                  
+                </td>
+                <td>
+                 
+                  <p>Part-Number:{partnumber}</p>
+                  <p>Name:{name}</p>
+                  <p>Price:${price}</p>
+                  <p>Price in INR:{82.03*price}</p>
+
+               
+
+                </td>
+                <td className='mb-3'>
+                <button className="add-btn" onClick={() => addToCart(id)}>+</button>
+                <input className='text-danger ' value={cartItems[id]} onChange={(e) => updateCartItemCount(Number(e.target.value), id)} />
+                <button className="add-btn" onClick={() => removeToCart(id)}>-</button>
+                </td>
+                <td>
+                  
+                  <div className="input-group mb-3">
+                    <input type="text" className="form-control" placeholder="Enter Coupon Code" aria-label="Recipient's username" aria-describedby="basic-addon2"/>
+                    <span className="input-group-text" id="basic-addon2">Search</span>
+                  </div>
+               
+                </td>
+             
+              </tr>
+              <div className='mb-3'></div>
+     
+        </tbody>
+      
+     
   </>;
 }
 
