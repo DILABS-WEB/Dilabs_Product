@@ -6,16 +6,18 @@ import { PRODUCTS } from '../components/products'
 import { PRODUCTS1 } from '../components/products'
 import { ShopContext } from '../components/shopcontext'
 import CartItem from '../components/cartitems'
+import { Link } from 'react-router-dom'
 
 
 
 const cart = (props) => {
   
-    const { getTotalCartAmount,addToCart,cartItems } = useContext(ShopContext);
+    const { getTotalCartAmount,clearCart,cartItems } = useContext(ShopContext);
     const TotalAmount = getTotalCartAmount();
   
   return <>
-   <section className='cart-item p-5'>
+   {TotalAmount > 0 ?
+    <section className='cart-item p-5'>
     <div className="container-xxl">
   <div  className="row">
   <table>
@@ -32,7 +34,9 @@ const cart = (props) => {
         return <CartItem key={product.id} data={product} />;
     }
     })}
-       
+       <div className='mb-3 text-center p-3'>
+              <Link onClick={() => clearCart(id)}>Clear Cart</Link>
+                </div>
      </table>
   
     
@@ -53,12 +57,24 @@ const cart = (props) => {
       <div>
       <h3>Total </h3>
         <p className="price mb-2">${TotalAmount} </p>
-        <p className="price mb-2">₹{82*TotalAmount} </p>
+        <p className="price mb-4">₹{82*TotalAmount} </p>
+        <button>Check Out</button>
       </div>
       
       
     </div>
 </section>
+   :
+   <section className='p-3'>
+    <div className="container-xxl">
+      <div className="text-center">
+        <h3>Your Cart Is Empty</h3>
+        <p>Click here to <Link to={'/shop'}>add items</Link> 
+        </p>
+      </div>
+    </div>
+   </section>
+   }
   </>;
 }
 

@@ -83,7 +83,7 @@ const cartitem = (props) => {
                 </td>
              
               </tr>
-              <div className='mb-3'></div>
+              
      
         </tbody>
       
