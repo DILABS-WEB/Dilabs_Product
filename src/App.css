@@ -363,4 +363,8 @@ tbody{
 .input-group button{
   border: 1px solid var(--lighter);
 }
+.price{
+  color: var(--primary);
+  font-weight: 450;
+}
 /* Carts End Here */
