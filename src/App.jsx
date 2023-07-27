@@ -12,6 +12,8 @@ import Login from "./pages/login";
 import ShopContext from './components/shopcontext'
 import Details from './pages/details'
 import Signup from './pages/signup'
+import Checkout from './pages/checkout'
+
 
 
 function App() {
@@ -30,6 +32,8 @@ function App() {
     <Route path='login' element={<Login/>}/>
     <Route path='signup' element={<Signup />} />
     <Route path='details' element={<Details/>}/>
+    <Route path='checkout' element={<Checkout/>}/>
+    
 
   </Route>
 

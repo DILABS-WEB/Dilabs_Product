@@ -10,6 +10,7 @@ import { Link } from 'react-router-dom'
 
 
 
+
 const cart = (props) => {
   
     const { getTotalCartAmount,getTotalCartProducts,clearCart,cartItems } = useContext(ShopContext);
@@ -59,7 +60,10 @@ const cart = (props) => {
       <p>Total Products: <span className="price my-2">{totalProducts}</span> </p>
         <p className="price mb-2">${TotalAmount} </p>
         <p className="price mb-4">₹{82*TotalAmount} </p>
-        <button>Check Out</button>
+        <button onClick={() => navigate("/checkout")}
+              className="mt-5"
+            >
+             Checkout </button>
       </div>
       
       
