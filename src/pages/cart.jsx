@@ -6,7 +6,8 @@ import { PRODUCTS } from '../components/products'
 import { PRODUCTS1 } from '../components/products'
 import { ShopContext } from '../components/shopcontext'
 import CartItem from '../components/cartitems'
-import { Link } from 'react-router-dom'
+import { Link, Navigate } from 'react-router-dom'
+import checkout from './checkout'
 
 
 
@@ -16,6 +17,21 @@ const cart = (props) => {
     const { getTotalCartAmount,getTotalCartProducts,clearCart,cartItems } = useContext(ShopContext);
     const TotalAmount = getTotalCartAmount();
     const totalProducts =getTotalCartProducts();
+
+    const navigate = useNavigate();
+    const [isMobile, setIsMobile] = useState(false)
+
+    const handleResize = () => {
+      if (window.innerWidth < 576) {
+        setIsMobile(true)
+      } else {
+        setIsMobile(false)
+      }
+    }
+  
+    window.addEventListener("resize", handleResize)
+  
+
   return <>
    {TotalAmount > 0 ?
     <section className='cart-item p-5'>
@@ -60,10 +76,12 @@ const cart = (props) => {
       <p>Total Products: <span className="price my-2">{totalProducts}</span> </p>
         <p className="price mb-2">${TotalAmount} </p>
         <p className="price mb-4">₹{82*TotalAmount} </p>
-        <button onClick={() => navigate("/checkout")}
+        <button
+              onClick={() => navigate("/checkout")}
               className="mt-5"
             >
-             Checkout </button>
+              {isMobile ? "Check Out" : "Proceed to Checkout"}
+            </button>
       </div>
       
       
