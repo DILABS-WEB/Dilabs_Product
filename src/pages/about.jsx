@@ -35,8 +35,16 @@ const about = () => {
       </div>
       <div className="col-md-6 d-flex flex-column align-items-center justify-content-center">
         <h1><b>Who are we?</b></h1>
-        <p className="card-text mb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. <br /> Quibusdam tempore unde aperiam, consectetur harum a eum error, <br /> libero nemo quisquam ex assumenda corrupti rerum aut quod et sint facere reprehenderit?</p>
-        <p className="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. <br /> Quibusdam tempore unde aperiam, consectetur harum a eum error, <br /> libero nemo quisquam ex assumenda corrupti rerum aut quod et sint facere reprehenderit?</p>
+        <p className="card-text mb-3">DILABS (DILABS Systems Private Limited) was established in the year 2002. <br />  
+        Initially the group was catering to the requirements of the Aerospace and <br />
+         Defence markets by offering Commercially Off The shelf (COTS) products. <br />
+          It was realized that customers needed total solutions for their requirements <br />
+          and were not satisfied with just buying the COTS products. DILABS's began with <br />
+           offering Integration and development solutions to our customers by offering  <br />
+           hardware and software development solutions. <br /> 
+         </p>
+        <p className="card-text">DILABS is an AS 9100D certified company having a very well established Quality Management System. <br />
+         We are also Certified by CEMILAC for “Design and Development of Electrical / Avionics Equipment's for Military Airborne applications”.</p>
       </div>
     </div>
   </section>
