@@ -12,9 +12,9 @@ import { Link } from 'react-router-dom'
 
 const cart = (props) => {
   
-    const { getTotalCartAmount,clearCart,cartItems } = useContext(ShopContext);
+    const { getTotalCartAmount,getTotalCartProducts,clearCart,cartItems } = useContext(ShopContext);
     const TotalAmount = getTotalCartAmount();
-  
+    const totalProducts =getTotalCartProducts();
   return <>
    {TotalAmount > 0 ?
     <section className='cart-item p-5'>
@@ -56,6 +56,7 @@ const cart = (props) => {
      </div>
       <div>
       <h3>Total </h3>
+      <p>Total Products: <span className="price my-2">{totalProducts}</span> </p>
         <p className="price mb-2">${TotalAmount} </p>
         <p className="price mb-4">₹{82*TotalAmount} </p>
         <button>Check Out</button>

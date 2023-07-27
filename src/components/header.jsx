@@ -1,4 +1,5 @@
-import React  from 'react'
+import React, { useContext} from 'react'
+import { ShopContext } from '../components/shopcontext'
 import {BiPhoneCall} from  'react-icons/bi';
 import {AiOutlineMail}  from 'react-icons/ai';
 import {HiOutlineInboxIn}  from 'react-icons/hi';
@@ -13,6 +14,8 @@ import logo from "../assets/image/Dilabs.png"
 
 
 const header = () => {
+  const {getTotalCartProducts} = useContext(ShopContext);
+  const totalProducts =getTotalCartProducts();
   const location =useLocation();
   return <>
   <header className='header-top-strip p-1 px-4 shadow-md'>
@@ -76,7 +79,8 @@ const header = () => {
 </div>
 </Link>
 <Link to={'cart'} className={location.pathname === '/cart' ?  'inactive':'active'}>  <div className='d-flex'> <span><CgShoppingCart className='fs-3 mx-2'/> </span> 
-<p>Cart</p>
+<p>Cart <span className="text-danger">
+{totalProducts > 0 && `(${totalProducts})` }</span></p>
 </div>
 </Link>
 
