@@ -10,6 +10,7 @@ import Cart from './pages/cart'
 import Wishlist from './pages/wishlist'
 import Login from "./pages/login";
 import ShopContext from './components/shopcontext'
+import Details from './pages/details'
 
 
 function App() {
@@ -26,6 +27,8 @@ function App() {
     <Route path='cart' element={<Cart/>}/>
     <Route path='wishlist' element={<Wishlist/>}/>
     <Route path='login' element={<Login/>}/>
+    <Route path='details' element={<Details/>}/>
+
   </Route>
 
 </Routes>
