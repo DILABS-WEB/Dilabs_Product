@@ -21,10 +21,10 @@ const checkout = () => {
     <div className="container-xxl">
       <div className="row">
 
-        <div className="col-md-6">
-        <h1 className="mb-4 fs-3">Payment Method</h1>
-        <div className="accordion" id="accordionExample">
-          <div className="card">
+      {/*   <div className="col-md-6">
+        <h1 className="mb-4 fs-3">Order Now</h1>
+         <div className="accordion" id="accordionExample"> 
+          {<div className="card">
             <div className="card-header p-0" id="headingTwo">
               <button className="btn col-12 btn-light btn-block text-start collapsed p-3 rounded-0 border-bottom-custom" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                 <div className="d-flex align-items-center justify-content-between">
@@ -42,8 +42,8 @@ const checkout = () => {
                 <input type="text" className="form-control" placeholder="Paypal email" required/>
               </div>
             </div>
-          </div>
-          <div className="card m-auto">
+          </div> }
+        {  <div className="card m-auto">
             <div className="card-header p-0">
               <button className="btn col-12 btn-light btn-block text-start p-3 rounded-0" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                 <div className="d-flex align-items-center justify-content-between">
@@ -82,9 +82,9 @@ const checkout = () => {
                 <span className="text-muted certificate-text"><i className="fa fa-lock"></i> Your transaction is secured with ssl certificate</span>
               </div>
             </div>
-          </div>
+          </div> }
         </div>
-      </div>
+      </div> */}
 
       <div className="col-md-6 p-2">
             <h1 className=" mt-3 mb-3 fs-3">Fill the following details for shipping.</h1>
@@ -121,7 +121,7 @@ const checkout = () => {
                 <input type="text" className="form-control" id="inputZip" />
               </div>
               <div className="col-12 mt-5">
-                <button id="button-linker" type="submit" onClick={handlePay}>Proceed To Pay</button>
+                <button id="button-linker" type="submit" onClick={handlePay}>Proceed To order</button>
               </div>
             </form>
           </div>
