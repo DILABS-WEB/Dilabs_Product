@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://dilabs-web.github.io/Dilabs_Product/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
