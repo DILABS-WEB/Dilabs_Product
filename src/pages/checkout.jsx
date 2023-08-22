@@ -13,7 +13,7 @@ const checkout = () => {
   
   const handlePay = () => {
   
-    window.alert(`Thank you for your purchase of ${totalProducts} products for a total of $${totalAmount}. Your request has been received and is being processed.`);
+    window.alert(`Thank you for your purchase of ${totalProducts} products for a total of $${totalAmount} or ₹${82*totalAmount}. Your request has been received and is being processed.`);
     resetCart();
   };
   
