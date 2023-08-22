@@ -68,7 +68,8 @@ const cart = (props) => {
   <hr className='my-5'/>
     <div className="mt-4 p-3 cart-total d-flex justify-content-between">
      <div className="col-6">
-     <button>
+     <button onClick={() => navigate("/shop")}
+              className="mt-5">
           Continue Shopping
         </button>
      </div>

@@ -89,6 +89,10 @@ const checkout = () => {
       <div className="col-md-6 p-2">
             <h1 className=" mt-3 mb-3 fs-3">Fill the following details for shipping.</h1>
             <form className="row g-3 mb-3">
+         
+                <label htmlFor="inputName" className="form-label">Name</label>
+                <input type="text" className="form-control" id="inputName" required />
+              
               <div className="col-md-6">
                 <label htmlFor="inputEmail4" className="form-label">Email</label>
                 <input type="email" className="form-control" id="inputEmail4" required />
